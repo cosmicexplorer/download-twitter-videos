@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "download-twitter-videos",
+  "description": "This extension allows the user to download videos from Twitter easily",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "tabs",
+    "webNavigation",
+    "tabCapture",
+    "downloads",
+    "https://twitter.com/"
+  ],
+  "background": {
+    "scripts": ["ctx.js"]
+  }
+}

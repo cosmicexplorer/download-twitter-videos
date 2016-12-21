@@ -1,0 +1,10 @@
+{
+  "name": "download-twitter-videos",
+  "version": "1.0.0",
+  "description": "This extension allows the user to download videos from Twitter easily",
+  "author": "Danny McClanahan <danieldmcclanahan@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "coffee-script": "^1.12.2"
+  }
+}
